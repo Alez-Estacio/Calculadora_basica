@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERACION</title>
+    <script src="calculadora.js"></script>
+    <link  rel="stylesheet" href="calculadora.html">
+</head>
+<body>
+<center>
+        <div style="color:#FF0000;" class="container" id="container";> CALCULADORA</div><br>
+        <div style="color:#FF0000;">El PRIMER NÚMERO</div><BR>
+            <input  class="input" type="text" id="n1" placeholder="Ingrese el número" style="width: 300px; height: 70px; font-size: 30;"/><br/><br/>
+            <div style="color:#FF0000;">El SEGUNDO  NÚMERO</div><BR>
+            <input  class="input" type="text" id="n2" placeholder="Ingrese el número" style="width: 300px; height: 70px; font-size: 30;"/><br/><br/>
+            <div style="color:#FF0000;">SELECCIONE LA OPERACION</div><BR>
+        <div  style="color:#FF0000;"class="input" class="option" >
+            <select id="operators" >        
+                <option class="input" value="suma">Suma</option>
+                <option class="input" value="resta">Resta</option>
+                <option class="input" value="division">Division</option>
+                <option class="input" value="multiplicacion">Multiplicacion</option>
+            </select>
+        </div>           
+        <br>   
+        <div  class="input">
+            <button class="btn" onclick="calc();">Resultado</button><br><br>
+            <input class="input" type="text" id="result" style="width: 250px; height: 50px; font-size: 30;"/>
+        </div>     
+        
+
+
+    </div>
+
+</center>
+</body>
+</html>
